@@ -64,7 +64,7 @@ export function HeroSection() {
       {/* Content */}
       <div className="relative z-10 text-center text-white px-4 sm:px-6 md:px-8">
         {/* Badge */}
-        <div className="mb-4 inline-block rounded-full bg-[#FFFFFF1C]/10 px-4 py-2 sm:px-5 sm:py-[10px] text-[12px] sm:text-sm md:text-[32px] font-medium">
+        <div className="mb-4 border inline-block rounded-full bg-[#FFFFFF1C]/10 px-4 py-[11px] sm:px-5 sm:py-[10px] text-[12px] sm:text-sm md:text-[32px] font-medium">
           Born in Sardinia, made for the sea
         </div>
 
