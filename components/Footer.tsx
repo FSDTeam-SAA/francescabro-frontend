@@ -1,7 +1,7 @@
 export function Footer() {
   return (
     <footer className="bg-[#FF9796] text-white">
-      <div className="max-w-7xl mx-auto px-4 md:px-8 py-12 md:pt-16 pb-2">
+      <div className="max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-16 ">
         
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12">
 
@@ -81,12 +81,7 @@ export function Footer() {
 
         </div>
 
-        {/* Bottom */}
-        <div className="border-t border-white/20 mt-12 pt-8 text-center">
-          <p className="text-[12px] font-normal">
-            © 2024 Sea Fever. All rights reserved.
-          </p>
-        </div>
+    
       </div>
     </footer>
   )
