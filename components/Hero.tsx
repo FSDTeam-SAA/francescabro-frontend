@@ -1,8 +1,7 @@
 
-
-
-
 'use client'
+
+import Link from "next/link"
 
 export function HeroSection() {
   return (
@@ -41,9 +40,11 @@ export function HeroSection() {
         </div>
 
         {/* Button */}
+        <Link href="#footer">
         <button className="bg-[#FFFFFF] text-[#000000E5] text-[16px] sm:text-[18px] md:text-[32px] font-medium px-6 sm:px-8 md:px-10 h-12 sm:h-14 md:h-[70px] rounded-lg hover:bg-gray-100 transition">
           Contact
         </button>
+        </Link>
       </div>
     </section>
   )

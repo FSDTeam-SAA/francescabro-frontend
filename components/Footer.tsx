@@ -1,6 +1,6 @@
 export function Footer() {
   return (
-    <footer className="bg-[#FF9796] text-white">
+    <footer className="bg-[#FF9796] text-white" id="footer">
       <div className="max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-16 ">
         
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12">
