@@ -21,12 +21,33 @@ export function HeroSection() {
       {/* Content */}
       <div className="relative z-10 text-center text-white px-4 sm:px-6 md:px-8">
         {/* Badge */}
-        <div className="mb-4 border inline-block rounded-full bg-[#FFFFFF1C]/10 !px-[32px] !py-[18px] sm:px-5 sm:py-[10px] text-[12px] sm:text-sm md:text-[32px] font-medium">
+        <div
+          className="
+    mb-4
+    inline-block
+    rounded-full
+    border
+    bg-white/10
+
+    px-4 py-2
+    sm:px-5 sm:py-2
+    md:px-8 md:py-3
+
+    text-xs
+    sm:text-sm
+    md:text-lg
+    lg:text-2xl
+
+    font-medium
+    text-center
+    whitespace-nowrap
+  "
+        >
           Born in Sardinia, made for the sea
         </div>
 
         {/* Title */}
-        <h1 className="text-[22px] sm:text-[28px] md:text-5xl lg:text-[36px] font-medium mb-4 sm:mb-5 md:mb-6 text-balance leading-tight">
+        <h1 className="text-[16px] sm:text-[28px] md:text-5xl lg:text-[36px] font-medium mb-4 sm:mb-5 md:mb-6 text-balance leading-tight">
           Nautical excellence entirely from Sardina
         </h1>
 
@@ -41,9 +62,9 @@ export function HeroSection() {
 
         {/* Button */}
         <Link href="#footer">
-        <button className="bg-[#FFFFFF] text-[#000000E5] text-[16px] sm:text-[18px] md:text-[32px] font-medium px-6 sm:px-8 md:px-10 h-12 sm:h-14 md:h-[70px] rounded-lg hover:bg-gray-100 transition">
-          Contact
-        </button>
+          <button className="bg-[#FFFFFF] text-[#000000E5] text-[16px] sm:text-[18px] md:text-[32px] font-medium px-6 sm:px-8 md:px-10 h-10 sm:h-14 md:h-[70px] rounded-lg hover:bg-gray-100 transition">
+            Contact
+          </button>
         </Link>
       </div>
     </section>
